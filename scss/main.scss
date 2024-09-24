@@ -2,6 +2,7 @@
 @import "./base/reset";
 @import "./base/vars";
 @import "./base/base";
+@import "./base/mixins";
 
 //Blocks
 @import "./blocks/header";
@@ -15,3 +16,5 @@
 @import "./blocks/video";
 @import "./blocks/section-map";
 @import "./blocks/feedback";
+@import "./blocks/footer";
+@import "./blocks/nav-icon";
