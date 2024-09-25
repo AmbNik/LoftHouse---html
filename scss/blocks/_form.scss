@@ -23,7 +23,13 @@
   font-size: 13px;
   text-align: center;
   line-height: 1.23;
+  &--bottom {
+    @include mediaTablet {
+      grid-row: 4/5;
+    }
+  }
 }
+
 .form_btn {
   height: 50px;
   padding: 12px;
